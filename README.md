@@ -1,12 +1,5 @@
 # Google Chrome
 
-![Puppet Google Chrome CI](https://github.com/GEANT/puppet-google-chrome/workflows/Puppet%20Google%20Chrome%20CI/badge.svg?branch=master)
-[![Puppet Forge](https://img.shields.io/puppetforge/v/jamesnetherton/google_chrome.svg)](https://forge.puppet.com/jamesnetherton/google_chrome)
-[![Puppet Forge](https://img.shields.io/puppetforge/f/jamesnetherton/google_chrome.svg?maxAge=600)](https://forge.puppet.com/jamesnetherton/google_chrome)
-[![Puppet Forge](https://img.shields.io/puppetforge/dt/jamesnetherton/google_chrome.svg?maxAge=600)](https://forge.puppet.com/jamesnetherton/google_chrome)
-[![Puppet Forge](https://img.shields.io/puppetforge/rc/jamesnetherton.svg?maxAge=600)](https://forge.puppet.com/jamesnetherton/google_chrome)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=600)](https://opensource.org/licenses/MIT)
-
 ## Table of Contents
 
 1. [Overview](#overview)
@@ -17,9 +10,7 @@
 
 Puppet module to install the Google Chrome web browser module. Currently supports installation on:
 
-* CentOS / Fedora
-* Debian / Ubuntu
-* openSUSE
+* AlmaLinux 9
 
 ## Usage
 
@@ -67,4 +58,4 @@ class { 'google_chrome':
 
 ## Notes
 
-Forked from [jamesnetherton/google_chrome](https://forge.puppetlabs.com/modules/jamesnetherton/google_chrome/readme)
+Forked from [geant/google_chrome](https://forge.puppet.com/modules/geant/google_chrome/readme)
